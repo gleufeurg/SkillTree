@@ -15,7 +15,7 @@ C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree
 -logFile
 Logs/AssetImportWorker365.log
 -srvPort
-50468
+60990
 Successfully changed project path to: C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree
 C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,140 +47,11 @@ C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [81556] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 368290071 [EditorId] 368290071 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1FNTFCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [116540] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 3348450107 [EditorId] 3348450107 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1FNTFCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [81556] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 368290071 [EditorId] 368290071 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1FNTFCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [116540] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 3348450107 [EditorId] 3348450107 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1FNTFCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-mdb reader table full -> cleaning up stale readers. Current readers:
-    pid     thread     txnid
-     19584 64a8 -
-     45064 12554 -
-     19584 ecb8 -
-     19584 77a0 -
-     78624 1320c -
-     48472 12c18 -
-     19420 f0cc -
-     78560 132e4 -
-     15516 4ec4 -
-     77908 329c -
-     16976 2d8c -
-     78576 133f4 -
-     12780 133cc -
-     60812 11a1c -
-     78816 115d8 -
-     44532 2084 -
-     78396 13240 -
-     78500 1311c -
-     76312 11740 -
-     76752 13294 -
-     62108 5cb0 -
-     77928 44d4 -
-     32656 5970 -
-     54932 8a18 -
-     30136 b668 -
-     19636 6a30 -
-     11644 1157c -
-     50960 130b0 -
-     24052 cc54 -
-     47760 dff8 -
-      9620 e318 -
-     48088 6820 -
-     78336 f128 -
-     44620 13354 -
-     78740 3ac8 -
-      6756 132c0 -
-     77856 f540 -
-     79068 134e0 -
-     79532 136b0 -
-     56988 4f14 -
-     28372 12ee8 -
-     79720 1376c -
-     15840 1350c -
-     45204 13510 -
-     79656 136d8 -
-     78036 b5d0 -
-     76416 133d0 -
-     79140 1349c -
-     58304 c1bc -
-     29924 13380 -
-     78940 13620 -
-     51396 13230 -
-     27544 d908 -
-     77680 1142c -
-     18604 e58 -
-     31436 13044 -
-     71860 13170 -
-     78440 9b24 -
-     31332 11320 -
-     19584 1c6c -
-     11992 129a0 -
-     59040 ace4 -
-     15012 132bc -
-     37392 10620 -
-     53120 130bc -
-     76820 13108 -
-     78760 30c4 -
-     42924 134c4 -
-     79292 135b8 -
-     62688 7b78 -
-     68612 bbac -
-     28596 cc4c -
-     79708 13308 -
-     75640 1364c -
-     27500 135ac -
-     12204 13758 -
-     80176 13934 -
-     80648 13b0c -
-     79572 1313c -
-     64912 13548 -
-     58232 13f8 -
-     80680 13b2c -
-     13488 124b8 -
-     80260 139ec -
-      7068 13680 -
-     13756 f1c8 -
-     45524 3e3c -
-     78876 11b24 -
-     80236 138f8 -
-     76472 10498 -
-     17520 18cc -
-     43624 c2f4 -
-     78508 13a4c -
-     30360 46c0 -
-     22872 6cec -
-     24172 1362c -
-     16164 6b48 -
-     38180 30a0 -
-     80668 139f4 -
-     26648 1280c -
-     80768 10e08 -
-     13552 11d0c -
-     79260 55d4 -
-     36320 e498 -
-     79916 13b74 -
-     79104 1ec4 -
-     76412 10d90 -
-     69480 8b24 -
-     80132 136bc -
-     79928 1384c -
-     43388 13628 -
-     79380 13be4 -
-      2596 12eb0 -
-     52216 e524 -
-     80112 1304c -
-     48812 73c8 -
-     52376 13388 -
-     80252 ee70 -
-     79604 bd34 -
-     13200 a50c -
-     45428 2180 -
-     79904 133bc -
-     80932 13c1c -
-     80848 1334c -
-      3692 136c8 -
-      8624 9ef8 -
-Cleaned out 121 stale readers
-Refreshing native plugins compatible for Editor in 69.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -196,81 +67,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004590 seconds.
+Registered in 0.005780 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 63.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.516 seconds
+- Completed reload, in  0.577 seconds
 Domain Reload Profiling:
-	ReloadAssembly (516ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (578ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (376ms)
-			LoadAssemblies (56ms)
+		EndReloadAssembly (418ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (77ms)
+			SetupTypeCache (85ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (233ms)
+			SetupLoadedEditorAssemblies (265ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
+				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004466 seconds.
+Registered in 0.005153 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Eva\Documents\GitHub\SkillTree\SkillTree\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Eva\Documents\GitHub\SkillTree\SkillTree\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.807 seconds
+- Completed reload, in  1.012 seconds
 Domain Reload Profiling:
-	ReloadAssembly (808ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (1013ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (625ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (787ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
+			SetupTypeCache (240ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (367ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 AssetImportWorkerClient::OnTransportError - code=10061 error=Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5ea21ea5c33e22a4c9b5312ea571dfbc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - skillEffect: {fileID: 11500000, guid: 5ea21ea5c33e22a4c9b5312ea571dfbc, type: 3}
+  - sprite: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,7 +15,7 @@ C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree
 -logFile
 Logs/AssetImportWorker124.log
 -srvPort
-50468
+60990
 Successfully changed project path to: C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree
 C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,140 +47,140 @@ C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12044] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 2316965964 [EditorId] 2316965964 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1FNTFCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [106708] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 4207147414 [EditorId] 4207147414 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1FNTFCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12044] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 2316965964 [EditorId] 2316965964 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1FNTFCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [106708] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 4207147414 [EditorId] 4207147414 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1FNTFCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 mdb reader table full -> cleaning up stale readers. Current readers:
     pid     thread     txnid
-     19584 64a8 -
-     19584 52d0 -
-     58988 ab04 -
-      2080 d4f4 -
-     22692 11694 -
-     75928 f9ec -
-     53608 6bfc -
-     72072 12bcc -
-     25988 bdc4 -
-     68020 b23c -
-     30512 adf0 -
-     75672 13f4 -
-     47696 55dc -
-     57776 3560 -
-     18976 56b0 -
-     63696 5e74 -
-     56560 10c4c -
-     52964 c764 -
-     23380 380c -
-     68788 12edc -
-     32136 11f08 -
-     37132 91cc -
-     67076 f18c -
-     67092 121b4 -
-     29320 dbf0 -
-     54744 11334 -
-     67724 ad08 -
-     11888 12cb4 -
-     17312 12fac -
-      9348 c9bc -
-     34336 ccd4 -
-     42060 26e4 -
-     72100 11640 -
-     58340 f720 -
-     62024 b64c -
-     76780 3a94 -
-     56776 fe10 -
-      8776 5604 -
-     15112 4058 -
-     70688 bb04 -
-     28396 7994 -
-      2436 d84 -
-     40704 118d0 -
-     76992 11cd4 -
-     47428 1065c -
-     23240 b638 -
-     11880 3248 -
-     65676 76a8 -
-     69428 a3dc -
-     49704 6354 -
-     60188 5494 -
-     54988 3654 -
-     21512 e454 -
-     53244 f624 -
-     46580 b330 -
-     49380 1bec -
-     45120 122b4 -
-      3064 1d98 -
-     13712 12fa8 -
-     21696 4520 -
-     13480 fd28 -
-     26212 e1f4 -
-     66088 c6c8 -
-     31944 9474 -
-     60324 421c -
-     25716 4bf8 -
-      4036 1180c -
-     68400 98f0 -
-     53668 74a4 -
-     19464 b860 -
-     46120 6e8c -
-     45520 5940 -
-     46832 8054 -
-     29428 d87c -
-     38116 4d48 -
-     63780 43ac -
-     61904 20c0 -
-     21864 7940 -
-     35648 fca4 -
-     62928 3858 -
-     24236 fbb4 -
-     12904 2948 -
-     10064 6b18 -
-     14552 f60 -
-     15644 2714 -
-     15476 12be0 -
-     62888 10a04 -
-     58048 d5f4 -
-     47640 b00c -
-     55124 12c78 -
-     12756 de34 -
-     30660 42f4 -
-     69156 5f78 -
-     43280 7818 -
-     60184 5448 -
-     11280 bd9c -
-     18304 114f8 -
-     51996 7524 -
-     14016 115a4 -
-     54864 9018 -
-     71932 3988 -
-     46380 ccc4 -
-     50052 3a24 -
-     63116 16dc -
-     73136 fcc -
-     69820 8d8c -
-     16392 f0bc -
-     61420 11a18 -
-     62852 1082c -
-     61068 ba10 -
-     30696 bb1c -
-     24068 da84 -
-     41904 7594 -
-     46128 11660 -
-      7060 d8f8 -
-     20436 110c8 -
-     33784 60d4 -
-     59656 3f78 -
-     43824 d520 -
-     24204 a614 -
-     69348 9148 -
-     13052 cac -
-     20212 aaa8 -
-     19976 a078 -
-     19576 e500 -
-     63736 bab4 -
-Cleaned out 124 stale readers
-Refreshing native plugins compatible for Editor in 62.69 ms, found 3 plugins.
+     79116 fd78 -
+    104272 17948 -
+     56340 17e54 -
+     99416 d6b0 -
+    102460 19040 -
+    102660 19108 -
+     67708 41fc -
+    102060 18dd4 -
+    103260 193a8 -
+     14640 19394 -
+     25684 18518 -
+    102380 18460 -
+     54320 19264 -
+     99924 188f8 -
+     99796 16d74 -
+     86568 f808 -
+     11896 19380 -
+     96800 19128 -
+     98116 c348 -
+     96432 15360 -
+     99820 5c4c -
+    102476 1876c -
+     98344 1966c -
+    104356 197a0 -
+     67324 19234 -
+     93584 14a50 -
+     79116 17e64 -
+    101256 182dc -
+     96404 15fcc -
+     18708 17fa4 -
+    101000 18cb8 -
+    102608 18968 -
+     97932 19078 -
+     96788 195d0 -
+     97276 9158 -
+     99788 19bdc -
+    105224 19b0c -
+     68820 18b5c -
+    102048 191c8 -
+    104900 199b8 -
+    101876 19290 -
+    103192 96a8 -
+     55504 19974 -
+    104896 b61c -
+     98800 15e60 -
+    101296 1955c -
+     96976 19854 -
+    102840 2a30 -
+    100276 19558 -
+     87788 1917c -
+    104516 187fc -
+    100848 187c8 -
+    102800 16b40 -
+    102636 e630 -
+     75480 15300 -
+    103200 18d54 -
+     24256 17fb0 -
+    103516 18c24 -
+    104664 19678 -
+    105772 19d30 -
+    105928 19dcc -
+    101028 199e4 -
+    102728 197c0 -
+    102976 195dc -
+    101832 18844 -
+    106048 19e80 -
+     81184 19e48 -
+     96792 d9c4 -
+    102916 e448 -
+    105288 18618 -
+     92236 151a8 -
+    106964 19f18 -
+    106624 193e4 -
+    106928 194a4 -
+     89900 1a324 -
+    107008 339c -
+    108316 1a720 -
+    107964 1a5e0 -
+    106552 192bc -
+    103076 16490 -
+     94852 19980 -
+     88208 1960c -
+    108492 16654 -
+    106436 198ac -
+    103808 19b4c -
+     91192 1a31c -
+    105944 1a570 -
+     78128 18640 -
+    107604 1a5ac -
+     99692 1a1d8 -
+     57656 11a38 -
+    108012 1a314 -
+     79460 1a4cc -
+    106536 19968 -
+    103684 18b48 -
+     67644 1922c -
+    106612 1a4f4 -
+    107072 19e44 -
+    104184 14eac -
+     75892 19a3c -
+    104420 199b4 -
+    107088 1a270 -
+    109448 1ab8c -
+     68776 5e2c -
+    106544 182f4 -
+    103636 1989c -
+     90532 19820 -
+     41172 197bc -
+    102720 1a3b4 -
+    108620 1a518 -
+    109080 1aa00 -
+    109132 1aa54 -
+    105864 1981c -
+    104136 194cc -
+    102804 13d5c -
+    108512 16890 -
+    107672 1a0f8 -
+    108716 1abfc -
+    104980 192c0 -
+    108824 10b90 -
+    107916 19a84 -
+    108980 1a9b8 -
+    108508 1a3a8 -
+    107752 187e4 -
+    108804 1a9ec -
+    100124 19894 -
+Cleaned out 123 stale readers
+Refreshing native plugins compatible for Editor in 70.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -196,78 +196,78 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005096 seconds.
+Registered in 0.005665 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.505 seconds
+- Completed reload, in  0.557 seconds
 Domain Reload Profiling:
-	ReloadAssembly (506ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (558ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (365ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (395ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (79ms)
+			SetupTypeCache (89ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (220ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (237ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
+				RefreshPlugins (69ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004624 seconds.
+Registered in 0.004922 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Eva\Documents\GitHub\SkillTree\SkillTree\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Eva\Documents\GitHub\SkillTree\SkillTree\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.785 seconds
+- Completed reload, in  0.862 seconds
 Domain Reload Profiling:
-	ReloadAssembly (786ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (863ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (612ms)
-			LoadAssemblies (62ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (659ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
+			SetupTypeCache (222ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (285ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (290ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)

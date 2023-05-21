@@ -15,7 +15,7 @@ C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree
 -logFile
 Logs/AssetImportWorker342.log
 -srvPort
-50468
+60990
 Successfully changed project path to: C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree
 C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21972] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 2487862787 [EditorId] 2487862787 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1FNTFCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [73112] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 4177059094 [EditorId] 4177059094 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1FNTFCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21972] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 2487862787 [EditorId] 2487862787 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1FNTFCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [73112] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 4177059094 [EditorId] 4177059094 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1FNTFCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 61.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,81 +67,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005818 seconds.
+Registered in 0.006729 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 67.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.545 seconds
+- Completed reload, in  0.601 seconds
 Domain Reload Profiling:
-	ReloadAssembly (546ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (601ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (383ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (415ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (80ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (236ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (251ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
+				RefreshPlugins (69ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004658 seconds.
+Registered in 0.004386 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Eva\Documents\GitHub\SkillTree\SkillTree\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Eva\Documents\GitHub\SkillTree\SkillTree\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.816 seconds
+- Completed reload, in  0.859 seconds
 Domain Reload Profiling:
-	ReloadAssembly (817ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (860ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (640ms)
-			LoadAssemblies (61ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (668ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
-			ReleaseScriptCaches (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (304ms)
+			SetupLoadedEditorAssemblies (301ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 AssetImportWorkerClient::OnTransportError - code=10061 error=Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.

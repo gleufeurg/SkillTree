@@ -13,5 +13,6 @@ public class Dash : Skill_SO
         Rigidbody rb = parent.GetComponent<Rigidbody>();
 
         rb.AddForce(movement.movementInput.normalized * dashVelocity, ForceMode.Impulse);
+        Debug.Log("Dash");
     }
 }

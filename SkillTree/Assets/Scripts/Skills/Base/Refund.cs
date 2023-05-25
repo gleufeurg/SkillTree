@@ -15,6 +15,7 @@ public class Refund : MonoBehaviour
 
         if (refundMode)
         {
+            //In waiting of a correct Add listener implementation, I add all skills in refundSkills
             foreach (var item in SkillTree.Instance.allSkills)
             {
                 refundSkills.Add(item);
@@ -25,10 +26,7 @@ public class Refund : MonoBehaviour
         }
         else
         {
-            refundSkills.Clear();
-            transform.Find("RefundButton").transform.Find("Cancel").transform.gameObject.SetActive(false);
-            transform.Find("RefundButton").transform.Find("ApplyRefund").transform.gameObject.SetActive(false);
-            //Debug.Log("remove Refund");
+            CancelRefund();
         }
     }
 
@@ -40,7 +38,7 @@ public class Refund : MonoBehaviour
         transform.Find("RefundButton").transform.Find("ApplyRefund").transform.gameObject.SetActive(false);
     }
 
-    public void Apply()
+    public void ApplyRefund()
     {
         foreach (var skill in refundSkills)
         {

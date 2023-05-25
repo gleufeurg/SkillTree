@@ -11,11 +11,12 @@ using UnityEngine.UI;
 public class SkillInTree : MonoBehaviour
 {
     //The skill imperatively need to have a reference in order to the script (and the game) to work
-
+    //The skill correspond to the ability or passive you gain by bying this skill in the tree
+    [Tooltip("The ability or passive you gain by buying this skill in the tree")]
     [SerializeField] public Skill_SO skill;
 
-    [Tooltip("Data received from the Scriptable Object \"skill\"")]
     [Header("Data received")]
+    [Tooltip("Sprite from the Scriptable Object \"skill\"")]
     [SerializeField] Sprite sprite;
 
     [Space(20f)]
@@ -31,7 +32,6 @@ public class SkillInTree : MonoBehaviour
         locked,
         unlockable,
         unlocked,
-        uwu,
     }
     SkillState state = SkillState.locked;
 
@@ -39,7 +39,7 @@ public class SkillInTree : MonoBehaviour
     {
         #region Set all the Data received from the Scriptable Object
 
-        //sprite = skill.sprite;
+        sprite = skill.sprite;
 
         gameObject.GetComponent<Image>().sprite = sprite;
 
@@ -150,6 +150,11 @@ public class SkillInTree : MonoBehaviour
             SkillInTree _skill = item.GetComponent<SkillInTree>();
             _skill.Unlockable();
         }
+
+        SkillTree.Instance.UploadTree();
+
+        //Debug
+        //Debug.Log("Unlocked" + skill.skillName);
     }
 
     public void Lock()

@@ -12,8 +12,8 @@ public class Skill_SO : ScriptableObject
     //You can also add new uniques variables in the child
     //Don't forget to add [CreateAssetMenu(fileName = "Skills", menuName = "Skills/SkillName")] at the top of the child's script
 
-    //public MonoScript skillEffect; //Put here what you gain when you unlock this skill (and don't put itself)
     public SkillType type;
+    public KeybindingActions key;
 
     [Header("Stats")]
     public int UnlockCost;

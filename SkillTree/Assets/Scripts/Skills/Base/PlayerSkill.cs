@@ -10,7 +10,7 @@ public class PlayerSkill : MonoBehaviour
     private InputManager inputManager;
     private SkillTree skillTree;
 
-    public List<Skill_SO> skills = new List<Skill_SO>();
+    public Skill_SO skill;
 
     float startupTime;
     float activeTime;
@@ -40,69 +40,68 @@ public class PlayerSkill : MonoBehaviour
     {
         #region Switch state
 
-        foreach (Skill_SO skill in skills)
+        
+        switch (state)
         {
-            switch (state)
-            {
-                case SkillState.ready:
-                    if (inputManager.GetKeyDown(skill.key))
-                    {
-                        skill.Startup(gameObject);
-                        startupTime = skill.startupTime;
-                        state = SkillState.startup;
+            case SkillState.ready:
+                if (inputManager.GetKeyDown(skill.key))
+                {
+                    skill.Startup(gameObject);
+                    startupTime = skill.startupTime;
+                    state = SkillState.startup;
 
-                        //Debug
-                        //Debug.Log("Start");
-                        rend.material.color = Color.yellow;
-                    }
-                    break;
-                case SkillState.startup:
-                    if (startupTime > 0)
-                    {
-                        startupTime -= Time.deltaTime;
-                    }
-                    else if (startupTime <= 0)
-                    {
-                        skill.Activate(gameObject);
-                        activeTime = skill.activeTime;
-                        state = SkillState.active;
+                    //Debug
+                    //Debug.Log("Start");
+                    rend.material.color = Color.yellow;
+                }
+                break;
+            case SkillState.startup:
+                if (startupTime > 0)
+                {
+                    startupTime -= Time.deltaTime;
+                }
+                else if (startupTime <= 0)
+                {
+                    skill.Activate(gameObject);
+                    activeTime = skill.activeTime;
+                    state = SkillState.active;
 
-                        //Debug
-                        //Debug.Log("Activate");
-                        rend.material.color = Color.red;
-                    }
-                    break;
-                case SkillState.active:
-                    if (activeTime > 0)
-                    {
-                        activeTime -= Time.deltaTime;
-                    }
-                    else if (activeTime <= 0)
-                    {
-                        skill.Cooldown(gameObject);
-                        cooldownTime = skill.cooldownTime;
-                        state = SkillState.cooldown;
+                    //Debug
+                    //Debug.Log("Activate");
+                    rend.material.color = Color.red;
+                }
+                break;
+            case SkillState.active:
+                if (activeTime > 0)
+                {
+                    activeTime -= Time.deltaTime;
+                }
+                else if (activeTime <= 0)
+                {
+                    skill.Cooldown(gameObject);
+                    cooldownTime = skill.cooldownTime;
+                    state = SkillState.cooldown;
 
-                        //Debug
-                        //Debug.Log("Cooldown");
-                        rend.material.color = Color.blue;
-                    }
-                    break;
-                case SkillState.cooldown:
-                    if (cooldownTime > 0)
-                    {
-                        cooldownTime -= Time.deltaTime;
-                    }
-                    else if (cooldownTime <= 0)
-                    {
-                        state = SkillState.ready;
+                    //Debug
+                    //Debug.Log("Cooldown");
+                    rend.material.color = Color.blue;
+                }
+                break;
+            case SkillState.cooldown:
+                if (cooldownTime > 0)
+                {
+                    cooldownTime -= Time.deltaTime;
+                }
+                else if (cooldownTime <= 0)
+                {
+                    state = SkillState.ready;
 
-                        //Debug
-                        //Debug.Log("Ready");
-                        rend.material.color = Color.white;
-                    }
-                    break;
-            }
+                    //Debug
+                    //Debug.Log("Ready");
+                    rend.material.color = Color.white;
+                }
+                break;
+        
         }
         
 

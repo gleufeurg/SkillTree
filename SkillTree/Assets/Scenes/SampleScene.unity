@@ -863,7 +863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 795aed3128253cd4c9114e9422b0543a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skill: {fileID: 11400000, guid: c884fdff885651f42b0d34e87dd1a1e7, type: 2}
+  skill: {fileID: 11400000, guid: 100a9a121cf7fb14ebf75e0e44ebe2ad, type: 2}
   sprite: {fileID: 0}
   isLock: 1
   isUnlockable: 1
@@ -1144,12 +1144,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78eb100279f188b458479fae96e0ba59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  playerSkill: {fileID: 0}
   allSkills: []
   lockedSkills: []
   unlockedSkills: []
   unlockableSkills: []
+  currentSkills: []
 --- !u!1 &1218335077
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,7 +2170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 624d914b8e0dfd24c89a8b3d6ac47e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skills: []
+  skill: {fileID: 0}
 --- !u!1 &1896906583
 GameObject:
   m_ObjectHideFlags: 0
@@ -2895,7 +2894,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit

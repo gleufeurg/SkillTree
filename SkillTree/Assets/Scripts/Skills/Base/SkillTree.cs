@@ -24,19 +24,17 @@ public class SkillTree : MonoBehaviour
     #endregion
 
     GameObject player;
-    PlayerSkill playerSkill;
 
     public List<SkillInTree> allSkills = new List<SkillInTree>();
     public List<SkillInTree> lockedSkills = new List<SkillInTree>();
     public List<SkillInTree> unlockedSkills = new List<SkillInTree>();
     public List<SkillInTree> unlockableSkills = new List<SkillInTree>();
     //Skills currently used by the player
-    public List<Skill_SO> currentSkills = new List<Skill_SO>();
+    public List<SkillSlot> currentSkills = new List<SkillSlot>();
 
     private void Start()
     {
         player = GameObject.FindWithTag("Player");
-        playerSkill = player.GetComponent<PlayerSkill>();
 
         UploadTree();
     }

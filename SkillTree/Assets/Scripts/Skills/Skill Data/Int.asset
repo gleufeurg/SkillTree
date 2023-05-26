@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Int
   m_EditorClassIdentifier: 
   type: 0
+  key: 0
   UnlockCost: 0
   RefundCost: 0
   skillName: Int

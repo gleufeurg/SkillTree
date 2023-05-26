@@ -18,16 +18,20 @@ MonoBehaviour:
   - keyBindingActions: 1
     keyCode: 32
   - keyBindingActions: 2
-    keyCode: 27
+    keyCode: 101
   - keyBindingActions: 3
-    keyCode: 9
+    keyCode: 27
   - keyBindingActions: 4
-    keyCode: 49
+    keyCode: 9
   - keyBindingActions: 5
-    keyCode: 50
+    keyCode: 112
   - keyBindingActions: 6
-    keyCode: 51
+    keyCode: 49
   - keyBindingActions: 7
-    keyCode: 52
+    keyCode: 50
   - keyBindingActions: 8
+    keyCode: 51
+  - keyBindingActions: 9
+    keyCode: 52
+  - keyBindingActions: 10
     keyCode: 53

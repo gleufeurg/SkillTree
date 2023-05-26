@@ -159,31 +159,33 @@ public class SkillInTree : MonoBehaviour
 
     public void Lock()
     {
-        //Return to a previous state in case the player want a refund of skillpoints
+        //Return to a previous state in case the player want a refund of skillpoints or a skill Lock othr skills
         //Set all the skills in unlockables now locked (if they are not unlocked)
         //Except if they are unlocked and have another connection branch (like in Path of Exile)
 
-        /*if (!isLock)
-        {
-            foreach (var item in unlockables)
-            {
-                SkillInTree _skill = item.GetComponent<SkillInTree>();
-                if(!_skill.isLock || !_skill.isUnlockable)
-                {
-                    return;
-                }
-                else if(_skill.isUnlockable)
-                {
-                    isUnlockable = true;
-                    isLock = true;
-                    _skill.Lock();
-                }
-            }
-        }
-        else if(isLock)
+        if (isLock)
         {
             isUnlockable = false;
-        }*/
+            return;
+        }
+
+        foreach (var item in unlockables)
+        {
+            SkillInTree _skill = item.GetComponent<SkillInTree>();
+            if(!_skill.isLock || !_skill.isUnlockable)
+            {
+                return;
+            }
+            else if(_skill.isUnlockable)
+            {
+                isUnlockable = true;
+                isLock = true;
+                _skill.Lock();
+            }
+        }
+        
+
+        SkillTree.Instance.UploadTree();
         Debug.Log("Lock : " + skill.skillName);
     }
 

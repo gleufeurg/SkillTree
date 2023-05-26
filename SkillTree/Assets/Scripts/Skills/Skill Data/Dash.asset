@@ -18,7 +18,7 @@ MonoBehaviour:
   RefundCost: 0
   skillName: Dash
   description: Created for testing the Scriptable Object and Skilltree
-  sprite: {fileID: 21300000, guid: d9876a9a001f6014983c39d2619c58b4, type: 3}
+  sprite: {fileID: 21300000, guid: b24eb5c17d93a324a9cbd00f87f90d11, type: 3}
   startupTime: 0.25
   activeTime: 0.25
   cooldownTime: 0.25

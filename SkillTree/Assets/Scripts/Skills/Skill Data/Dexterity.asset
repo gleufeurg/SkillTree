@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Dexterity
   m_EditorClassIdentifier: 
   type: 0
+  key: 0
   UnlockCost: 0
   RefundCost: 0
   skillName: Dext
   description: Dext like Dexter or Dexterity ?
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: cc99078b355c8ac4e928e0d277cea9db, type: 3}
   startupTime: 0
   activeTime: 0
   cooldownTime: 0

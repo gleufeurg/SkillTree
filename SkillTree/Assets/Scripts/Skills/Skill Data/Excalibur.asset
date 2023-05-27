@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1b7fe42fe898048ba6f4ff40e90933, type: 3}
   m_Name: Excalibur
   m_EditorClassIdentifier: 
-  type: 0
+  element: 0
+  type: 2
   key: 0
   UnlockCost: 0
   RefundCost: 0

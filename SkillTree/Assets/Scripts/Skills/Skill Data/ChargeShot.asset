@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991037af7da3706479613a1d9993607b, type: 3}
   m_Name: ChargeShot
   m_EditorClassIdentifier: 
-  type: 0
+  element: 0
+  type: 2
   key: 0
   UnlockCost: 0
   RefundCost: 0

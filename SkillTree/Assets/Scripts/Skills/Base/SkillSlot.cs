@@ -18,6 +18,7 @@ public class SkillSlot : MonoBehaviour
 
     //Debug
     Renderer rend;
+    GameObject player;
 
     enum SkillState
     {
@@ -33,7 +34,8 @@ public class SkillSlot : MonoBehaviour
         inputManager = InputManager.Instance;
 
         //Debug
-        rend = GetComponent<Renderer>();
+        rend = transform.parent.parent.GetComponent<Renderer>();
+        player = transform.parent.parent.gameObject;
     }
 
     private void Update()
@@ -51,7 +53,7 @@ public class SkillSlot : MonoBehaviour
             case SkillState.ready:
                 if (inputManager.GetKeyDown(skill.key))
                 {
-                    skill.Startup(gameObject);
+                    skill.Startup(player);
                     startupTime = skill.startupTime;
                     state = SkillState.startup;
 
@@ -67,7 +69,7 @@ public class SkillSlot : MonoBehaviour
                 }
                 else if (startupTime <= 0)
                 {
-                    skill.Activate(gameObject);
+                    skill.Activate(player);
                     activeTime = skill.activeTime;
                     state = SkillState.active;
 
@@ -83,7 +85,7 @@ public class SkillSlot : MonoBehaviour
                 }
                 else if (activeTime <= 0)
                 {
-                    skill.Cooldown(gameObject);
+                    skill.Cooldown(player);
                     cooldownTime = skill.cooldownTime;
                     state = SkillState.cooldown;
 

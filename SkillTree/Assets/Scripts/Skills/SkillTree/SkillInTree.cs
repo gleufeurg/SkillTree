@@ -41,9 +41,11 @@ public class SkillInTree : MonoBehaviour
     {
         #region Set all the Data received from the Scriptable Object
 
+        //Get the data
         sprite = skill.sprite;
 
-        gameObject.GetComponent<Image>().sprite = sprite;
+        //Set the data
+        transform.Find("Image").GetComponent<Image>().sprite = sprite;
 
         #endregion
 
@@ -155,8 +157,9 @@ public class SkillInTree : MonoBehaviour
         }
 
         skillTree.UpdateTree();
-        //While there is no skill menu for player to choose which skill to use, the skill is directly put in the usable skills, even if it's a passive
-        skillTree.UpdateSlots();
+        //Auto add the Ability unlocked
+        if (skill.type == SkillType.Ability)
+            skillTree.AddSkillInSlot(skill, true);
 
         //Debug
         //Debug.Log("Unlocked" + skill.skillName);
@@ -189,8 +192,7 @@ public class SkillInTree : MonoBehaviour
             }
         }
         
-
-        skillTree.UpdateTree();
+        //Lock skill
         Debug.Log("Lock : " + skill.skillName);
     }
 

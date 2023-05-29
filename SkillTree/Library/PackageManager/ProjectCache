@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638182995459984601
-    m_Hash: 2465031950
+      ticks: 638208939849928250
+    m_Hash: 1474196244
   m_LockFileStatus:
     m_FilePath: C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638207413784991721
-    m_Hash: 3854456244
+      ticks: 638208939849978283
+    m_Hash: 2788060722
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,108 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/Eva/Documents/GitHub/SkillTree/SkillTree/Packages
 m_EditorVersion: 2021.3.5f1 (40eb3a945986)
 m_ResolvedPackages:
+- packageId: com.coffee.softmask-for-ugui@https://github.com/mob-sakai/SoftMaskForUGUI.git
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.2
+  source: 5
+  resolvedPath: C:\Users\Eva\Documents\GitHub\SkillTree\SkillTree\Library\PackageCache\com.coffee.softmask-for-ugui@b870d64b57
+  assetPath: Packages/com.coffee.softmask-for-ugui
+  name: com.coffee.softmask-for-ugui
+  displayName: UI Soft Mask
+  author:
+    name: mob-sakai
+    email: sakai861104@gmail.com
+    url: https://github.com/mob-sakai
+  category: 
+  type: 
+  description: 'UI Soft Mask is a smooth masking component for Unity UI (uGUI) elements.
+
+    By
+    using SoftMask instead of the default Mask component, you can beautifully represent
+    the rounded edges of UI elements.'
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - ui
+  - softmask
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/mob-sakai/SoftMaskForUGUI.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\Eva\Documents\GitHub\SkillTree\SkillTree\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
 - packageId: com.unity.collab-proxy@2.0.0
   testable: 0
   isDirectDependency: 1
@@ -995,6 +1097,93 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+- packageId: com.unity.ui.builder@2.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.0
+  source: 2
+  resolvedPath: C:\Users\Eva\Documents\GitHub\SkillTree\SkillTree\Library\PackageCache\com.unity.ui.builder@2.0.0
+  assetPath: Packages/com.unity.ui.builder
+  name: com.unity.ui.builder
+  displayName: UI Builder
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: shim
+  description: 'The UI Builder lets you visually create and edit UI assets such as
+    UI documents (.uxml files), and stylesheets (.uss files), that you use with Unity''s
+    UI Toolkit (formerly UIElements).\n\nTo open the UI Builder window, select Window
+    > UI Toolkit > UI Builder from the menu.\n\nNote: In Unity 2019.x, you open the
+    UI Builder from the Window > UI > UI Builder menu.\n\nNote: UI Builder is the
+    visual authoring tool for UI Toolkit. For details, please see the UI Builder
+    package documentation.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.5.7-preview
+    - 0.5.8-preview
+    - 0.6.1-preview
+    - 0.6.2-preview
+    - 0.7.0-preview
+    - 0.8.0-preview
+    - 0.8.1-preview
+    - 0.8.2-preview
+    - 0.8.3-preview
+    - 0.8.4-preview
+    - 0.9.0-preview
+    - 0.10.0-preview
+    - 0.10.1-preview
+    - 0.10.2-preview
+    - 0.11.0-preview
+    - 0.11.1-preview
+    - 0.11.2-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0-preview.9
+    - 1.0.0-preview.10
+    - 1.0.0-preview.11
+    - 1.0.0-preview.12
+    - 1.0.0-preview.13
+    - 1.0.0-preview.14
+    - 1.0.0-preview.15
+    - 1.0.0-preview.16
+    - 1.0.0-preview.17
+    - 1.0.0-preview.18
+    - 2.0.0
+    compatible:
+    - 2.0.0
+    verified: 2.0.0
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
 - packageId: com.unity.visualscripting@1.8.0
   testable: 0
